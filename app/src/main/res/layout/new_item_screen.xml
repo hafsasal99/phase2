@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper">
+
+
+    <TextView
+        android:id="@+id/EnterItem"
+        android:layout_width="405dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/enteritems"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="178dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/round_button"
+        android:text="@string/additem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EnterItem" />
+
+    <TextView
+        android:id="@+id/items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/itemstoday"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addItemButton" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/items">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/darkgreen">
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/darkgreen"
+                    android:gravity="center"
+                    android:padding="20dip"
+                    android:text="@string/nameofItem"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/title11"
+                    android:layout_width="89dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/darkgreen"
+
+                    android:gravity="center"
+                    android:text="@string/sugg"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/darkgreen"
+                    android:gravity="center"
+                    android:text="@string/benefit"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/item1"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="20dip"
+                    android:text="@string/item1"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/sbutton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/round_button"
+                    android:padding="5dp"
+                    android:text="@string/sugg"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/bbutton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/round_button"
+                    android:padding="5dp"
+                    android:text="@string/benefit"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/item2"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="20dip"
+                    android:text="@string/item2"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/sbutton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/round_button"
+                    android:padding="5dp"
+                    android:text="@string/sugg"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/bbutton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/round_button"
+                    android:padding="5dp"
+                    android:text="@string/benefit"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

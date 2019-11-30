@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "600230210882",
+    "firebase_url": "https://ecochange-a7d53.firebaseio.com",
+    "project_id": "ecochange-a7d53",
+    "storage_bucket": "ecochange-a7d53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600230210882:android:d13c156728d317961c2cdb",
+        "android_client_info": {
+          "package_name": "com.example.ecochange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600230210882-o4h9dc6289q5pqnvon2umbbbepjje2bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUMnu0pbMhwQuNYtCOm33he9cKy4ilCsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600230210882-o4h9dc6289q5pqnvon2umbbbepjje2bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

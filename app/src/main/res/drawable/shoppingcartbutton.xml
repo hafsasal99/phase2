@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+
+            <solid android:color="@color/theme"/>
+            <size android:width="@dimen/shoppingcart_Size" android:height="@dimen/shoppingcart_Size"/>
+        </shape>
+    </item>
+</selector>

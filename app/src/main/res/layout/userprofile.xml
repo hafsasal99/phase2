@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        style="@style/newsfeed_toolbar"
+
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="5dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="@dimen/profile_wh"
+        android:layout_height="@dimen/profile_wh"
+        android:src="@drawable/anitaborg"
+        app:civ_border_width="@dimen/profile_boundary"
+        android:layout_gravity="center"
+        app:civ_border_color="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="@dimen/profile_margintop5"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userprofile_name"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="@string/userprofile_city"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/profile_margintop5"
+        android:text="@string/userprofile_score"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginTop="@dimen/profile_margin"
+        android:paddingLeft="@dimen/profile_margin"
+        android:paddingRight="@dimen/profile_margin"
+        android:background="@color/theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userprofile_description"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/profile_recycleview_margintop"
+        android:padding="@dimen/profile_margin"
+        android:id="@+id/allposts"
+        android:background="@color/theme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="506dp"
+        />
+
+</LinearLayout>

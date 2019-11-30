@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/recyclerow_padding"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_margin="@dimen/recyclerow_margintop15"
+    >
+
+
+    <TextView
+        android:id="@+id/nameofpost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/recyclerow_margintop5"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/postcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="@dimen/recyclerow_margintop15"/>
+
+    <ImageView
+        android:id="@+id/profileimage"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:maxWidth="@dimen/profile_maxwh"
+        android:maxHeight="@dimen/profile_maxwh"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/dateofpost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/recyclerow_margintop5"
+        android:text="TextView" />
+</LinearLayout>

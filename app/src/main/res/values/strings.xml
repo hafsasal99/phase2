@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">EcoChange</string>
+    <string name="caption1">Act now before its too late!!</string>
+    <string name="caption2">How cool is this canvas bag!</string>
+    <string name="caption3">Do your part!</string>
+    <string name="username1">Hafsa</string>
+    <string name="username2">Iffat</string>
+    <string name="username3">Feza</string>
+    <string name="supportCount1">78 Supports</string>
+    <string name="supportCount2">89 Supports</string>
+    <string name="supportCount3">100 Supports</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="menu">
+        <item>Shop Eco-Friendly</item>
+        <item>Calculate carbon footprint</item>
+    </string-array>
+    <string name="spinnerTitle">Settings</string>
+    <string name="brand1">Khaadi</string>
+    <string name="brand2">Sapphire</string>
+    <string name="brand3">Almas</string>
+    <string name="desc1">Retails Men And Women Eastern Wear Together with Accessories,Scents,Bags etc</string>
+    <string name="desc2">Retails Men And Women Eastern and Western Wear Together with Accessories like Bags</string>
+    <string name="desc3">Retails Men And Women Western Wear Together with Footwear</string>
+    <string name="title_navbar1">Shop Eco-Friendly</string>
+    <string name="title_navbar2">Calculate My Carbon Footprint</string>
+    <string name="title_navbar3">Add new item</string>
+    <string name="title_navbar4">Get Eco-Friendly map-based shopping recommendations</string>
+    <string name="title_navbar5">Get your statistics</string>
+    <string name="title_navbar6">Get Eco-Friendly lifestyle recommendations</string>
+    <string name="navigation_drawer_open"></string>
+    <string name="navigation_drawer_close"></string>
+
+
+    <string name="userprofile_name">Antia Borg</string>
+    <string name="userprofile_city">Lahore</string>
+    <string name="userprofile_description">A very enthusiastic person willing to learn about new ways to grow and learn. Have a good amount of experience in living a waste free life.</string>
+    <string name="userprofile_score">90/100</string>
+    <string name="post1_date">16-9-2018</string>
+    <string name="post2_date">17-3-2019</string>
+    <string name="post1_content"> hi my name is hafsa so nice to meet you all!</string>
+    <string name="post2_content"> I just converted my lifestyle to waste free.Lets all save our environment together</string>
+    <string name="description_add">add user</string>
+    <string name="email">fezaroheel2124@gmail.com</string>
+    <string name="password">feza123456</string>
+
+
+    <string name="enteritems">Enter Your Items</string>
+    <string name="additem">+ Add New Item</string>
+    <string name="nameofItem">Name of Item</string>
+    <string name="sugg">Suggestions</string>
+    <string name="benefit">Benefits</string>
+    <string name="itemstoday">Your Items for Today</string>
+    <string name="title_activity_progress_tabs">progressTabs</string>
+    <string name="tab1">Weekly</string>
+    <string name="tab2">Monthly</string>
+    <string name="tab3">Yearly</string>
+    <string name="cfpB">Calculate Your\nCarbon Footprint</string>
+    <string name="pWeekly">Weekly Progress</string>
+    <string name="pYearly">Yearly Progress</string>
+    <string name="pMonthly">Monthly Progress</string>
+    <string name="stRecords">Statistical Records</string>
+    <string name="newItem">New Item</string>
+    <string name="nameofitem">Item Name: </string>
+    <string name="time">Time: </string>
+    <string name="typeofItem">Type of Item: </string>
+    <string name="benefits">17% less pollution</string>
+    <string name="sugg1">Use carbon silencer</string>
+    <string name="sugg2">Use less acceleration</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_item">Add Item</string>
+    <string name="item1">Bike</string>
+    <string name="item2">Bottle</string>
+    <string name="bullet">\u25AA  </string>
+    <string name="used_today">Used Today:</string>
+    <string name="total_cfp">Total CFP:</string>
+
+    <string name="Caption_of_new_Post">Enter caption here</string>
+</resources>
